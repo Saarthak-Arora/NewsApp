@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Route, Routes, Switch } from "react-router-dom";
-import NavBar from "./NavBar";
+
 // import Stories from './Stories';
 // import ScrollButton from './ScrolTo';
 // import AddToNote from './AddToNote';
