@@ -1,8 +1,9 @@
 import React  from 'react'
-import Stories from './Stories';
-import ScrollButton from './ScrolTo';
-import AddToNote from './AddToNote';
-import Search from './Search';
+import Stories from './Component/Stories';
+import ScrollButton from './Component/ScrolTo';
+import AddToNote from './Component/AddToNote';
+import Search from './Component/Search';
+import HomeImage from "./NewsHome.jpg";
 
 
 
@@ -11,7 +12,9 @@ export default function Main() {
    
    <div className="mainpage">
 
-    <AddToNote/>
+   <img className='HomeImage' src={HomeImage}/>
+
+      <AddToNote/>
         <Search/>
         <Stories/>
         <ScrollButton/>
